@@ -1,5 +1,8 @@
+import { WebSocketService } from './web-socket.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MainOutputHtmlComponent } from './main-output-html/main-output-html.component';
@@ -7,12 +10,12 @@ import { MainOutputHtmlComponent } from './main-output-html/main-output-html.com
 @NgModule({
   declarations: [
     AppComponent,
-    MainOutputHtmlComponent
+    MainOutputHtmlComponent, 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,HttpClientModule,FormsModule,
   ],
-  providers: [],
+  providers: [WebSocketService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,27 @@
+.KQDT{ width: 50em; height: 6.6em; margin-top: 0em; padding-top:0.25em  ; padding-left:0.25em  ; background-color: gainsboro;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.Display{ width: 105em; height: 180em; margin-top: 0em; padding-top:0.25em  ; padding-left:0.25em  ; background-color: rgb(243, 245, 237);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#input{ font-size:15px; color: darkblue; font-style:italic;width: 18em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(9, 3, 94, 0.23);}
+#input_url{ font-size:12px; color: darkblue; font-style:italic;width: 41em; height: 2.5em;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(9, 3, 94, 0.23);}
+
+#btn_so{font-size:12px ;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+#btn_url{font-size:12px; width: 120px; ;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+
+.bg-primary{ padding: 0.5em;}
+.TENSP{ width: 25em; font-size:16px; }
+.STT{ text-align: center; width: 0.25em;}
+.KHSP{ width: 18em; }
+.KL{ width: 7em;text-align: center; }
+.DVT{ text-align: center; }
+.DONGIA{ width: 8em; text-align: center; font-size:20px; }
+
+.SOTBMT{font-size:20px;}
+.CHUDAUTU{font-size:18px;}
+.GIAGOITHAU{ font-size:20px; }
+.TENNHATHAU{font-size:20px;}
+.GIADUTHAU{font-size:20px;}
